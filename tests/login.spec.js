@@ -6,11 +6,13 @@ await expect(page).toHaveTitle('ProtoCommerce')
 
 
 })
-
-test('failed test login',async({page})=>{
-
+test('login to the application 2',async ({page})=>{
 
     await page.goto("https://rahulshettyacademy.com/angularpractice/")
-await expect(page).toHaveTitle('ProtoCommerce1')
-})
+    await expect(page).toHaveTitle('ProtoCommerce')
+    
+    
+    })
+
+
 
